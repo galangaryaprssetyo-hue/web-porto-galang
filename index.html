@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Pengaturan dasar halaman dan tampilan responsif -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Galang Arya Prasetyo, siswa Desain Komunikasi Visual.">
+  <meta name="theme-color" content="#b5b5b5">
+  <title>Galang Arya Prasetyo | Portofolio DKV</title>
+  <!-- Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigasi utama website -->
+  <header class="site-header" id="beranda">
+    <nav class="navbar" aria-label="Navigasi utama">
+      <a href="#beranda" class="nav-link active">Beranda</a>
+      <a href="#tentang" class="nav-link">Tentang</a>
+      <a href="#karya" class="nav-link">Karya</a>
+      <a href="#kontak" class="nav-link">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Bagian pembuka berisi nama, jurusan, dan foto profil -->
+    <section class="hero section-wrap" aria-labelledby="nama-utama">
+      <div class="hero-heading">
+        <p class="eyebrow">PORTOFOLIO / 2026</p>
+        <h1 id="nama-utama">GALANG ARYA PRASETYO</h1>
+        <p class="hero-subtitle">DESAIN KOMUNIKASI VISUAL</p>
+      </div>
+      <img class="profile-photo" src="assets/profil.jpeg" alt="Foto profil Galang Arya Prasetyo">
+    </section>
+
+    <!-- Deskripsi singkat atau perkenalan diri -->
+    <section class="intro-card section-wrap" aria-label="Perkenalan">
+      <p>
+        Saya adalah siswa SMK jurusan <strong>Desain Komunikasi Visual (DKV)</strong>
+        yang memiliki ketertarikan kuat dalam menciptakan identitas visual serta
+        desain yang mampu mengomunikasikan gagasan secara efektif. Saya senang
+        mempelajari hal baru, mengembangkan kreativitas, dan terus meningkatkan
+        kemampuan diri.
+      </p>
+    </section>
+
+    <!-- Bagian tentang diri dan minat -->
+    <section class="content-section section-wrap" id="tentang">
+      <div class="section-label"><span>ABOUT ME</span></div>
+      <div class="about-card">
+        <p>
+          Aku suka membuat desain kreatif, mengedit foto dan video agar terlihat
+          lebih menarik, serta mengembangkan ide menjadi karya visual yang unik.
+          Aku juga memiliki ketertarikan pada dunia sepak bola, khususnya Persija
+          Jakarta, serta otomotif dan desain motor.
+        </p>
+      </div>
+    </section>
+
+    <!-- Daftar kemampuan desain -->
+    <section class="skills-section section-wrap" aria-labelledby="judul-skill">
+      <div class="section-label compact-label"><span id="judul-skill">SKILLS</span></div>
+      <div class="skill-list">
+        <span class="skill-chip">Adobe Illustrator</span>
+        <span class="skill-chip">Canva</span>
+        <span class="skill-chip">Figma</span>
+        <span class="skill-chip">CorelDRAW</span>
+        <span class="skill-chip">Photoshop</span>
+      </div>
+    </section>
+
+    <!-- Galeri karya; gambar berasal dari folder assets -->
+    <section class="projects-section section-wrap" id="karya">
+      <div class="section-label project-label"><span>PROJECT</span></div>
+      <p class="section-description">Beberapa karya desain dan eksplorasi visual saya.</p>
+      <div class="project-grid">
+        <figure class="project-card project-tall">
+          <img src="assets/kaos-cilegon.jpeg" alt="Desain kaos bertema Cilegon">
+          <figcaption>Desain kaos</figcaption>
+        </figure>
+        <figure class="project-card project-tall">
+          <img src="assets/poster-bimbingan.jpeg" alt="Desain poster bimbingan belajar">
+          <figcaption>Poster promosi</figcaption>
+        </figure>
+        <figure class="project-card project-square">
+          <img src="assets/logo-lumment.jpeg" alt="Desain logo Lumment">
+          <figcaption>Desain logo</figcaption>
+        </figure>
+        <figure class="project-card project-wide">
+          <img src="assets/banner-project.jpeg" alt="Desain banner promosi bimbingan belajar">
+          <figcaption>Banner promosi</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Informasi kontak dan ajakan untuk menghubungi -->
+    <section class="contact-section section-wrap" id="kontak">
+      <div class="section-label"><span>KONTAK</span></div>
+      <div class="contact-card">
+        <h2>Mari Terhubung</h2>
+        <p>Terima kasih sudah melihat portofolio saya. Silakan hubungi saya melalui email.</p>
+        <a class="email-link" href="mailto:galangaryaprssetyo@gmail.com">galangaryaprssetyo@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bagian penutup halaman -->
+  <footer class="site-footer">
+    <p>© <span id="tahun">2026</span> Galang Arya Prasetyo · Portofolio DKV</p>
+  </footer>
+
+  <!-- Menghubungkan file JavaScript eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
